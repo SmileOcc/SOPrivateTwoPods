@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE430A71E8A916500B34307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430A61E8A916500B34307 /* main.m */; };
+		2EE430AA1E8A916500B34307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430A91E8A916500B34307 /* AppDelegate.m */; };
+		2EE430AD1E8A916500B34307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430AC1E8A916500B34307 /* ViewController.m */; };
+		2EE430B01E8A916500B34307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE430AE1E8A916500B34307 /* Main.storyboard */; };
+		2EE430B21E8A916500B34307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE430B11E8A916500B34307 /* Assets.xcassets */; };
+		2EE430B51E8A916500B34307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE430B31E8A916500B34307 /* LaunchScreen.storyboard */; };
+		2EE430C01E8A916600B34307 /* SOPrivateTwoPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430BF1E8A916600B34307 /* SOPrivateTwoPodsTests.m */; };
+		2EE430CB1E8A916600B34307 /* SOPrivateTwoPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430CA1E8A916600B34307 /* SOPrivateTwoPodsUITests.m */; };
+		2EE430DE1E8A91FB00B34307 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430DD1E8A91FB00B34307 /* CommonTools.m */; };
+		2EE430E11E8A920A00B34307 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430E01E8A920A00B34307 /* DataModel.m */; };
+		2EE430E41E8A921C00B34307 /* NetWorkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE430E31E8A921C00B34307 /* NetWorkEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EE430BC1E8A916600B34307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE4309A1E8A916500B34307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE430A11E8A916500B34307;
+			remoteInfo = SOPrivateTwoPods;
+		};
+		2EE430C71E8A916600B34307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE4309A1E8A916500B34307 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE430A11E8A916500B34307;
+			remoteInfo = SOPrivateTwoPods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EE430A21E8A916500B34307 /* SOPrivateTwoPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPrivateTwoPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE430A61E8A916500B34307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EE430A81E8A916500B34307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EE430A91E8A916500B34307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EE430AB1E8A916500B34307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EE430AC1E8A916500B34307 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EE430AF1E8A916500B34307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EE430B11E8A916500B34307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EE430B41E8A916500B34307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EE430B61E8A916500B34307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE430BB1E8A916600B34307 /* SOPrivateTwoPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOPrivateTwoPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE430BF1E8A916600B34307 /* SOPrivateTwoPodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOPrivateTwoPodsTests.m; sourceTree = "<group>"; };
+		2EE430C11E8A916600B34307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE430C61E8A916600B34307 /* SOPrivateTwoPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOPrivateTwoPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE430CA1E8A916600B34307 /* SOPrivateTwoPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOPrivateTwoPodsUITests.m; sourceTree = "<group>"; };
+		2EE430CC1E8A916600B34307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE430DC1E8A91FB00B34307 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		2EE430DD1E8A91FB00B34307 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		2EE430DF1E8A920A00B34307 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		2EE430E01E8A920A00B34307 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		2EE430E21E8A921C00B34307 /* NetWorkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkEngine.h; sourceTree = "<group>"; };
+		2EE430E31E8A921C00B34307 /* NetWorkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE4309F1E8A916500B34307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE430B81E8A916500B34307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE430C31E8A916600B34307 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE430991E8A916500B34307 = {
+			isa = PBXGroup;
+			children = (
+				2EE430A41E8A916500B34307 /* SOPrivateTwoPods */,
+				2EE430BE1E8A916600B34307 /* SOPrivateTwoPodsTests */,
+				2EE430C91E8A916600B34307 /* SOPrivateTwoPodsUITests */,
+				2EE430A31E8A916500B34307 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE430A31E8A916500B34307 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430A21E8A916500B34307 /* SOPrivateTwoPods.app */,
+				2EE430BB1E8A916600B34307 /* SOPrivateTwoPodsTests.xctest */,
+				2EE430C61E8A916600B34307 /* SOPrivateTwoPodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE430A41E8A916500B34307 /* SOPrivateTwoPods */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430D81E8A91E300B34307 /* PrivatePods */,
+				2EE430A81E8A916500B34307 /* AppDelegate.h */,
+				2EE430A91E8A916500B34307 /* AppDelegate.m */,
+				2EE430AB1E8A916500B34307 /* ViewController.h */,
+				2EE430AC1E8A916500B34307 /* ViewController.m */,
+				2EE430AE1E8A916500B34307 /* Main.storyboard */,
+				2EE430B11E8A916500B34307 /* Assets.xcassets */,
+				2EE430B31E8A916500B34307 /* LaunchScreen.storyboard */,
+				2EE430B61E8A916500B34307 /* Info.plist */,
+				2EE430A51E8A916500B34307 /* Supporting Files */,
+			);
+			path = SOPrivateTwoPods;
+			sourceTree = "<group>";
+		};
+		2EE430A51E8A916500B34307 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430A61E8A916500B34307 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EE430BE1E8A916600B34307 /* SOPrivateTwoPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430BF1E8A916600B34307 /* SOPrivateTwoPodsTests.m */,
+				2EE430C11E8A916600B34307 /* Info.plist */,
+			);
+			path = SOPrivateTwoPodsTests;
+			sourceTree = "<group>";
+		};
+		2EE430C91E8A916600B34307 /* SOPrivateTwoPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430CA1E8A916600B34307 /* SOPrivateTwoPodsUITests.m */,
+				2EE430CC1E8A916600B34307 /* Info.plist */,
+			);
+			path = SOPrivateTwoPodsUITests;
+			sourceTree = "<group>";
+		};
+		2EE430D81E8A91E300B34307 /* PrivatePods */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430D91E8A91E300B34307 /* CommonTools */,
+				2EE430DA1E8A91E300B34307 /* DataModel */,
+				2EE430DB1E8A91E300B34307 /* NetWorkEngine */,
+			);
+			path = PrivatePods;
+			sourceTree = "<group>";
+		};
+		2EE430D91E8A91E300B34307 /* CommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430DC1E8A91FB00B34307 /* CommonTools.h */,
+				2EE430DD1E8A91FB00B34307 /* CommonTools.m */,
+			);
+			path = CommonTools;
+			sourceTree = "<group>";
+		};
+		2EE430DA1E8A91E300B34307 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430DF1E8A920A00B34307 /* DataModel.h */,
+				2EE430E01E8A920A00B34307 /* DataModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		2EE430DB1E8A91E300B34307 /* NetWorkEngine */ = {
+			isa = PBXGroup;
+			children = (
+				2EE430E21E8A921C00B34307 /* NetWorkEngine.h */,
+				2EE430E31E8A921C00B34307 /* NetWorkEngine.m */,
+			);
+			path = NetWorkEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE430A11E8A916500B34307 /* SOPrivateTwoPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE430CF1E8A916600B34307 /* Build configuration list for PBXNativeTarget "SOPrivateTwoPods" */;
+			buildPhases = (
+				2EE4309E1E8A916500B34307 /* Sources */,
+				2EE4309F1E8A916500B34307 /* Frameworks */,
+				2EE430A01E8A916500B34307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOPrivateTwoPods;
+			productName = SOPrivateTwoPods;
+			productReference = 2EE430A21E8A916500B34307 /* SOPrivateTwoPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EE430BA1E8A916500B34307 /* SOPrivateTwoPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE430D21E8A916600B34307 /* Build configuration list for PBXNativeTarget "SOPrivateTwoPodsTests" */;
+			buildPhases = (
+				2EE430B71E8A916500B34307 /* Sources */,
+				2EE430B81E8A916500B34307 /* Frameworks */,
+				2EE430B91E8A916500B34307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE430BD1E8A916600B34307 /* PBXTargetDependency */,
+			);
+			name = SOPrivateTwoPodsTests;
+			productName = SOPrivateTwoPodsTests;
+			productReference = 2EE430BB1E8A916600B34307 /* SOPrivateTwoPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EE430C51E8A916600B34307 /* SOPrivateTwoPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE430D51E8A916600B34307 /* Build configuration list for PBXNativeTarget "SOPrivateTwoPodsUITests" */;
+			buildPhases = (
+				2EE430C21E8A916600B34307 /* Sources */,
+				2EE430C31E8A916600B34307 /* Frameworks */,
+				2EE430C41E8A916600B34307 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE430C81E8A916600B34307 /* PBXTargetDependency */,
+			);
+			name = SOPrivateTwoPodsUITests;
+			productName = SOPrivateTwoPodsUITests;
+			productReference = 2EE430C61E8A916600B34307 /* SOPrivateTwoPodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE4309A1E8A916500B34307 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = MO;
+				TargetAttributes = {
+					2EE430A11E8A916500B34307 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2EE430BA1E8A916500B34307 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EE430A11E8A916500B34307;
+					};
+					2EE430C51E8A916600B34307 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EE430A11E8A916500B34307;
+					};
+				};
+			};
+			buildConfigurationList = 2EE4309D1E8A916500B34307 /* Build configuration list for PBXProject "SOPrivateTwoPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EE430991E8A916500B34307;
+			productRefGroup = 2EE430A31E8A916500B34307 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE430A11E8A916500B34307 /* SOPrivateTwoPods */,
+				2EE430BA1E8A916500B34307 /* SOPrivateTwoPodsTests */,
+				2EE430C51E8A916600B34307 /* SOPrivateTwoPodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE430A01E8A916500B34307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE430B51E8A916500B34307 /* LaunchScreen.storyboard in Resources */,
+				2EE430B21E8A916500B34307 /* Assets.xcassets in Resources */,
+				2EE430B01E8A916500B34307 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE430B91E8A916500B34307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE430C41E8A916600B34307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE4309E1E8A916500B34307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE430E41E8A921C00B34307 /* NetWorkEngine.m in Sources */,
+				2EE430AD1E8A916500B34307 /* ViewController.m in Sources */,
+				2EE430E11E8A920A00B34307 /* DataModel.m in Sources */,
+				2EE430AA1E8A916500B34307 /* AppDelegate.m in Sources */,
+				2EE430DE1E8A91FB00B34307 /* CommonTools.m in Sources */,
+				2EE430A71E8A916500B34307 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE430B71E8A916500B34307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE430C01E8A916600B34307 /* SOPrivateTwoPodsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE430C21E8A916600B34307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE430CB1E8A916600B34307 /* SOPrivateTwoPodsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EE430BD1E8A916600B34307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE430A11E8A916500B34307 /* SOPrivateTwoPods */;
+			targetProxy = 2EE430BC1E8A916600B34307 /* PBXContainerItemProxy */;
+		};
+		2EE430C81E8A916600B34307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE430A11E8A916500B34307 /* SOPrivateTwoPods */;
+			targetProxy = 2EE430C71E8A916600B34307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EE430AE1E8A916500B34307 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE430AF1E8A916500B34307 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EE430B31E8A916500B34307 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE430B41E8A916500B34307 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EE430CD1E8A916600B34307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EE430CE1E8A916600B34307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE430D01E8A916600B34307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOPrivateTwoPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = occ.SOPrivateTwoPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2EE430D11E8A916600B34307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOPrivateTwoPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = occ.SOPrivateTwoPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2EE430D31E8A916600B34307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SOPrivateTwoPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = occ.SOPrivateTwoPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOPrivateTwoPods.app/SOPrivateTwoPods";
+			};
+			name = Debug;
+		};
+		2EE430D41E8A916600B34307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SOPrivateTwoPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = occ.SOPrivateTwoPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOPrivateTwoPods.app/SOPrivateTwoPods";
+			};
+			name = Release;
+		};
+		2EE430D61E8A916600B34307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SOPrivateTwoPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = occ.SOPrivateTwoPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SOPrivateTwoPods;
+			};
+			name = Debug;
+		};
+		2EE430D71E8A916600B34307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SOPrivateTwoPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = occ.SOPrivateTwoPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SOPrivateTwoPods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE4309D1E8A916500B34307 /* Build configuration list for PBXProject "SOPrivateTwoPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE430CD1E8A916600B34307 /* Debug */,
+				2EE430CE1E8A916600B34307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE430CF1E8A916600B34307 /* Build configuration list for PBXNativeTarget "SOPrivateTwoPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE430D01E8A916600B34307 /* Debug */,
+				2EE430D11E8A916600B34307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EE430D21E8A916600B34307 /* Build configuration list for PBXNativeTarget "SOPrivateTwoPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE430D31E8A916600B34307 /* Debug */,
+				2EE430D41E8A916600B34307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2EE430D51E8A916600B34307 /* Build configuration list for PBXNativeTarget "SOPrivateTwoPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE430D61E8A916600B34307 /* Debug */,
+				2EE430D71E8A916600B34307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EE4309A1E8A916500B34307 /* Project object */;
+}
